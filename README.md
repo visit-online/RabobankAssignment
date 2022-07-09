@@ -1,4 +1,12 @@
 # RabobankAssignment
+## Source
+```bash
+https://spring.io/guides/tutorials/rest/
+```
+```bash
+https://codereview.stackexchange.com/questions/231594/simple-banking-application-in-spring-boot-jpa-rest-where-balance-can-be-transf
+```
+
 ## Usage 
 ### create account
 ```bash
@@ -23,3 +31,4 @@ curl -X GET localhost:8080/api/account/all-balance -H 'Content-type:application/
 ```bash
 curl -X POST localhost:8080/api/account/balance -H 'Content-type:application/json' -d '{"accountNumber": "2"}'
 ```
+
